@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.navbar {
+    height: 100px;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffa500;
+    margin-left: 100px;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    margin-right: -100px;
+}
+
+.navbar .menu1 {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.navbar .menu1 button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: #ffa500;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.left-section {
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.left-section h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.left-section h1 span {
+    font-size: 16px;
+    color: #ffa500;
+}
+
+.left-section p {
+    font-size: 20px;
+}
+
+.left-section .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.left-section .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.left-section .buttons .explore {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.left-section .buttons .team {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.right-section {
+    width: 50%;
+    background-color: #87cefa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.right-section .character img {
+    max-width: 80%;
+    height: auto;
+}
+
+.right-section .icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.right-section .icons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.sponsors-section {
+    background-color: #ffd65c;
+    padding: 50px 20px;
+}
+
+.sponsors-section h1 {
+    text-align: center;
+    color: #333;
+}
+
+.sponsors-section h1 span {
+    display: block;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    width: 120px;
+    margin: 10px auto 0;
+}
+
+.sponsors-section p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.sponsor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.sponsor:hover {
+    transform: scale(1.1);
+}
+
+.sponsor img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.sponsor span {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.features-section {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.features-section h1 {
+    font-family: Orbitron;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+}
+
+.features-section p {
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    width: 640px;
+    height: 200px;
+    background-color: #333;
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* transition: transform 0.3s; */
+
+}
+
+.feature h3 {
+    font-family: Orbitron;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.feature p {
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.cloud-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cloud-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cloud-section .video {
+    margin-top: 20px;
+}
+
+.cloud-section .video img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.cloud-section .button {
+    margin-top: 20px;
+}
+
+.cloud-section .button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cards {
+    background-color: black;
+    /* margin-top: -100px; */
+    height: 700px;
+    display: flex;
+}
+
+.card {
+    padding-top: 130px;
+    margin-left: 100px;
+}
+
+.card h1 {
+    font-family: Orbitron;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.card p {
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.card button {
+    width: 200px;
+    height: 70px;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.895);
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
